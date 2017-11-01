@@ -18,7 +18,7 @@ A site made with Laravel 5.4 that create users, store notes of users, user can l
 2. Login by clicking Login Button as your given criteria.
 <br />
 
-<a href="https://github.com/ManiruzzamanAkash/Store-My-Notes-Laravel-5/archive/master.zip" class="btn btn-primary"> Download Project as ZIP</a>
+<a href="https://github.com/ManiruzzamanAkash/Store-My-Notes-Laravel-5/archive/master.zip" style="background: #3F51B5;padding: 10px;color: #FFF;"> Download Project as ZIP</a>
 
 [main-image]: https://image.ibb.co/hYN1hb/Main_Page.jpg "Store My Notes - Main Page Screenshot"
 [user-login-page]: https://image.ibb.co/iAAwhb/Login_Page.jpg
