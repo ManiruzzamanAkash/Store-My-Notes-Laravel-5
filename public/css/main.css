@@ -1,0 +1,392 @@
+/**
+ * CSS Main
+ * Author: Maniruzzaman Akash;SS
+ */
+
+/**
+* Colors
+* Dark Primary - #32cb00
+* Primary - #76ff03
+* Primary-Light - #b0ff57
+* Light Background anything - #baffff
+* Gray - #E1E2E1
+*/
+
+
+body{
+  font-size: 1.2em;
+}
+a {
+  color: #E91E63;
+}
+a:hover{
+  color: #E91E63;
+}
+.text-sm{
+  font-size: 12px;
+}
+.text-theme{
+  color: #32cb00;
+  padding-bottom: 10px;
+}
+.btn-sm {
+  padding: 2px 5px;
+  font-size: 10px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.media, .media .media {
+    margin-top: 15px;
+    padding: 10px;
+    background: #e9ffd7;
+}
+.media:hover {
+    background: #B9FF7F;
+}
+/* form {
+  border: 1px solid rgba(118, 255, 3, 0.41);
+  padding: 20px;
+} */
+
+/*** Header ***/
+.navbar {
+  border-radius: 0px;
+  font-size: 1.5em;
+}
+.navbar-default {
+  background-color: #76ff03;
+  border-color: #76ff03;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  min-height: 90px;
+  padding-top: 35px;
+  -webkit-transition: all .5s; /* Safari */
+  transition: all .5s;
+  margin: 0px 1px 0px 1px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #32cb00;
+  min-height: 90px;
+  /* padding-top: 35%; */
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #fff;
+  background-color: #32cb00;
+  min-height: 90px;
+  padding-top: 20%;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+  background-color: #32cb00;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #32cb00;
+}
+.dropdown-menu>li>a {
+  padding: 10px 20px;
+  background: #76ff03;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 0px 0;
+  /* margin: 2px 0 0; */
+  font-size: 14px;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0px;
+}
+
+.logo-image {
+  width: 60px;
+}
+@media (min-width: 768px){
+  .navbar-form {
+   padding-top: 5px;
+ }
+ .navbar-form .form-control {
+   display: inline-block;
+   height: 60px;
+   border-radius: 0px;
+   font-size: 1.3em;
+   color: #32cb00;
+ }
+}
+.header-main {
+  height: 110px;
+}
+/*** Header ***/
+
+
+
+/**** Main Content ***/
+.sidebar-and-content{
+	padding-top: 8%;
+}
+.main-content {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+/**** Main Content ***/
+
+
+
+
+
+
+
+/*** All Notes Page ***/
+thead {
+  color: #fff;
+  background: #32CB00;
+}
+td {
+  font-size: 14px;
+}
+/*** All Notes Page ***/
+
+
+
+/*** Single Note Page ***/
+.single_note{
+  padding: 1%;
+}
+.note-header {
+  background: #edffdf;
+  padding: 15px;
+}
+.inline-forms{
+  display: inline-block;
+}
+.inline-forms form {
+  padding: 0%;
+  display: inline-block;
+  float: left;
+}
+.inline-forms form i.fa-thumbs-up{
+  font-size: 2.5em;
+  color: #5ac202;
+}
+.inline-forms form i.fa-thumbs-up:hover{
+  color: #3f7413;
+}
+.inline-forms form i.fa-thumbs-down{
+  font-size: 2.5em;
+  color: #F36D63;
+}
+.inline-forms form i.fa-thumbs-down:hover{
+  color: #ff0000;
+}
+.inline-forms form button[type="submit"] {
+  border: none;
+  float: left!important;
+}
+.fa.pull-left {
+  margin-right: 0em;
+}
+
+.sidebar-widget {
+  border: 1px solid #E2FFCA;
+  margin-top: 5%;
+  padding: 5%;
+  box-shadow: 14px 0px 30px 2px #E2FFCA;
+}
+.sidebar-widget ul{
+  list-style: none;
+}
+.sidebar-widget ul li {
+  padding: 5px;
+  font-size: 15px;
+}
+.advertise{
+  min-height: 300px;
+}
+.single-note-comments {
+  border: 1px solid #E2FFCA;
+  padding: 5%;
+}
+.single-note-comments .form-control{
+  border-radius: 0px;
+  line-height: 35px;
+}
+/*** Single Note Page ***/
+
+
+
+
+/*** Footer ***/
+.footer-main {
+  background: #76ff03;
+  padding: 10px;
+  color: #000;
+  font-size: 1.3em;
+}
+.footer-main .left-links a{
+  margin: 0px 5px 0px 0px;
+  color: #453;
+}
+/*** Footer ***/
+
+/**** User registration page ***/
+.btn-theme {
+  background: #76ff03;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0px;
+  -webkit-transition: all .3s; /* Safari */
+  transition: all .3s;
+}
+.btn-theme:hover{
+  color: #fff;
+  background: #32CB00;
+}
+.required-star {
+  color: red;
+}
+.panel-theme {
+  border-color: #32CB00;
+}
+.panel-theme>.panel-heading {
+  color: #000;
+  background-color: #76ff03;
+  border-color: #32CB00;
+}
+/**** User registration page ***/
+
+
+/*** Add Note Page ***/
+.add-note-page{
+  
+}
+.add-note-page form {
+  border: 1px solid rgba(128, 128, 128, 0.21);
+  padding: 30px;
+}
+.form-control{
+  border-radius: 0px;
+  min-height: 40px;
+}
+ul.select2-selection__rendered {
+  min-height: 33px;
+  border-radius: 0px;
+}
+/*** Add Note Page ***/
+
+/*** User Single Page ***/
+.user-single-page .list-group-item {
+  background-color: transparent;
+}
+.user-single-page img{
+  margin-bottom: 20px;
+}
+/*** User Single Page ***/
+
+
+/*** Note single page ***/
+.add-comment{
+
+}
+.add-comment form {
+  border: 1px solid rgba(118, 255, 3, 0.41);
+  padding: 20px;
+}
+.note-full-body {
+  padding: 20px;
+  background: rgba(245, 245, 245, 0.29);
+}
+.well{
+  background: rgba(245, 245, 245, 0.29);
+  border: 0px;
+}
+.note-options {
+  border-top: 1px dotted rgba(118, 255, 3, 0.62);
+  border-bottom: 1px dotted rgba(118, 255, 3, 0.62);
+  padding: 10px;
+}
+.note-options button:hover {
+    text-decoration: none;
+}
+/*** Note single page ***/
+
+
+
+/*** Index Page ***/
+.welcome-main .well {
+  background: rgba(118, 255, 3, 0.17);
+  border-radius: 0px;
+}
+.page {
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+.feature{
+  min-height: 300px;
+  text-align: center;
+  background: #baffff;
+  -webkit-transition: all 1s; /* Safari */
+  transition: all 1s;
+
+}
+.feature img{
+  width: 250px;
+  height: 250px;
+}
+
+.feature .texts .header1{
+  background: #F7EB2D;
+  padding: 10px;
+  font-size: 30px;
+}
+.feature .texts .header2 {
+  background: #76ff03;
+  padding: 10px;
+  font-size: 20px;
+}
+.feature .texts .header3 {
+  background: #ff946f;
+  padding: 10px;
+  font-size: 20px;
+}
+.feature .texts .header4 a {
+  background: #32cb00;
+  padding: 10px;
+  font-size: 20px;
+  color: #3c525d;
+  text-decoration: none;
+}
+
+/*** Index Page ***/
+
+/*** Bootstrap overrides ***/
+
+.tooltip > .tooltip-inner {
+  background-color: #32cb00; 
+  color: #FFFFFF; 
+  border: 1px solid #32cb00; 
+  padding: 8px;
+  font-size: 15px;
+}
+/* Tooltip arrows */
+.tooltip.bottom > .tooltip-arrow, .tooltip.left > .tooltip-arrow, .tooltip.right > .tooltip-arrow, .tooltip.top > .tooltip-arrow {
+  border-bottom: 5px solid #32cb00;
+}
+/*** Bootstrap overrides ***/
+

@@ -1,0 +1,287 @@
+/**
+* Colors For Main.css
+* Dark Primary - #32cb00
+* Primary - #76ff03
+* Primary-Light - #b0ff57
+* Light Background anything - #baffff
+* Gray - #E1E2E1
+*/
+
+/*
+ * Base structure
+ */
+
+ /* Move down content because we have a fixed navbar that is 50px tall */
+ body {
+  padding-top: 50px;
+}
+
+/*
+ * Typography
+ */
+
+ h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+.btn-theme {
+  background: #607d8b;
+  color: #fff;
+}
+.btn-theme:hover {
+  background: #37474F;
+  color: #fff;
+}
+form.form-inline {
+  display: initial;
+}
+.panel-theme {
+  border-color: #607D8B;
+}
+.panel-theme>.panel-heading {
+  color: #fff;
+  background-color: #607D8B;
+  border-color: #607D8B;
+}
+.modal-header {
+  background: #607D8B;
+  color: #fff;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/*
+ * Sidebar
+ */
+
+ .sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+ .placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/*** Navbar ***/
+.navbar-default {
+  background-color: #37474F;
+  border-color: #37474F;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #fffb94;
+  background-color: transparent;
+}
+.logo-image {
+  width: 25px;
+}
+.notification a i {
+    font-size: 25px;
+}
+.notification>li>a {
+    color: #cd0c0c;
+}
+.notification a .badge {
+    margin-left: -20%;
+    font-size: 12px;
+    background: #cd0c0c;
+}
+/*** Navbar ***/
+
+
+/*** Left Sidebar ***/
+.left-sidebar-full {
+    /* margin-top: -27px;
+    height: 575px;
+    background: #37474f;
+    position: fixed;
+    width: 20%; */
+/*     position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee; */
+  }
+  .bg-faded {
+    background-color: #37474F;
+  }
+  figcaption, figure, main {
+    display: block;
+  }
+  .pt-3 {
+    padding-top: 1rem!important;
+  }
+  .left-sidebar-full ul {
+    list-style: none;
+  }
+  .left-sidebar-full ul li{
+    border-bottom: 1px dotted #808080;
+    padding: 10px;
+  }
+  .left-sidebar-full ul a {
+    color: #fff;
+  }
+  /*** Left Sidebar ***/
+
+
+
+  /*** Main pages ***/
+  .page {
+    margin-top: 20px;
+  }
+  .active{
+    background: #1e2d35;
+  }
+  .nav-paddings{
+    margin-left: -40px;
+    padding: 15px;
+  }
+  /*** Main pages ***/
+
+
+
+
+  /*** Footer ***/
+  .footer-main {
+    background: #37474F;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1em;
+  }
+  .footer-main .left-links a {
+    margin: 0px 5px 0px 0px;
+    color: #fff;
+  }
+  /*** Footer ***/
+
+
+  /*** Main Responsiveness***/
+  @media (max-width: 768px){
+    .main{
+      padding-left: 50%;
+    }
+  }
+  @media (min-width: 1020px){
+    .main{
+      margin-left: 10%;
+      padding-left: 10%;
+    }
+  }
+  @media (max-width: 800px){
+    .main{
+      padding-left: 32%;
+    }
+  }
+  /*** Main Responsiveness***/
+
+
+  /*** Make a slider ***/
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input {display:none;}
+
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #607d8b;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #607d8b;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+/*** Make a slider ***/
