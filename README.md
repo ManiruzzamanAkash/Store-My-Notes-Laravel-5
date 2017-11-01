@@ -40,6 +40,27 @@ A site made with Laravel 5.4 that create users, store notes of users, user can l
 
 
 
+
+## Other Pages - Store My Notes
+
+### User Registration Page
+![User Registration Page Laravel - Store My Notes][user-registration-page]
+
+### User Login Page
+![User Login Page Laravel - Store My Notes][user-login-page]
+
+
+### Manage Notes Page
+![User Login Page Laravel - Store My Notes][manage-notes-page]
+
+
+
+### Create Note Page
+![Create Note Page Laravel - Store My Notes][create-note-page]
+
+
+
+
 <a href="https://github.com/ManiruzzamanAkash/Store-My-Notes-Laravel-5/archive/master.zip" style="background: #3F51B5;padding: 10px;color: #FFF;"> Download Project as ZIP</a>
 
 [main-image]: https://image.ibb.co/hYN1hb/Main_Page.jpg "Store My Notes - Main Page Screenshot"
