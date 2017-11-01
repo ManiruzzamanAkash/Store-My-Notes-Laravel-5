@@ -4,6 +4,25 @@ A site made with Laravel 5.4 that create users, store notes of users, user can l
 ## Home Page - Store My Notes
 ![Main Page - Store My Notes][main-image]
 
+To Work with this site, download and extract this.
+Setup database - 
+1. Create Database called `db_store_my_notes_laravel`.
+2. Import the sql file called `db_store_my_notes_laravel.sql` which is inside the project.
 
 
 [main-image]: https://image.ibb.co/hYN1hb/Main_Page.jpg "Store My Notes - Main Page Screenshot"
+[user-login-page]: https://image.ibb.co/iAAwhb/Login_Page.jpg
+[user-registration-page]: https://image.ibb.co/guRQaw/Registration_Page.jpg
+[manage-notes-page]: https://image.ibb.co/eqDhNb/Manage_Notes_Page.jpg
+[single-note-page]: https://image.ibb.co/ch7WFw/Single_Note_Page.jpg
+[create-note-page]: https://image.ibb.co/jKqJvw/Create_Note_Page.jpg
+[comments-page]: https://image.ibb.co/nOF7oG/Commenting_Like_Dystem.jpg
+[admin-login-page]: https://image.ibb.co/gPg2Nb/Admin_Login_Page.jpg
+[admin-categories-page]: https://image.ibb.co/kPeBFw/Admin_Manage_Categories.jpg
+[admin-users-page]: https://image.ibb.co/bAQkaw/Admin_Manage_Users_Page.jpg
+[single-user-page]: https://image.ibb.co/j3ihNb/User_Page_Laravel.jpg
+[admin-users-page]: https://image.ibb.co/bAQkaw/Admin_Manage_Users_Page.jpg
+[admin-users-page]: https://image.ibb.co/bAQkaw/Admin_Manage_Users_Page.jpg
+[admin-settings-page]: https://image.ibb.co/kAmrFw/Admin_Settings_Page.jpg
+
+
