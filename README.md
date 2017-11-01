@@ -17,7 +17,7 @@ A site made with Laravel 5.4 that create users, store notes of users, user can l
 1. Just create a new user account  by clicking register
 2. Login by clicking Login Button as your given criteria.
 
-
+<a href="https://github.com/ManiruzzamanAkash/Store-My-Notes-Laravel-5" class="btn btn-primary"> Download Project </a>
 
 [main-image]: https://image.ibb.co/hYN1hb/Main_Page.jpg "Store My Notes - Main Page Screenshot"
 [user-login-page]: https://image.ibb.co/iAAwhb/Login_Page.jpg
